@@ -18,7 +18,7 @@ The initial step is to determine the duration of the machine’s exposure to the
 
 Windows-Target-1 has been publicly accessible for several days.
 
-<img src="https://i.imgur.com/ulbl7Yg.png" alt="None" width="600">
+<img src="https://i.imgur.com/ulbl7Yg.png">
 
 **KQL Query Used:**
 
@@ -36,13 +36,13 @@ Several malicious actors have been identified attempting to gain access to the t
 
 ### IP in Question 1: 178.20.129.235
 
-<img src="https://i.imgur.com/0YALYxW.png" alt="None" width="600">
+<img src="https://i.imgur.com/0YALYxW.png">
 
 This IP address has attempted to log in to our target machine 119 times over the past 30 days. An alert has already been raised for this IP, titled "Unusual Number of Failed Sign-In Attempts."
 
 Further investigation of the IP:
 
-<img src="https://i.imgur.com/WXM9GWI.png" alt="None" width="600">
+<img src="https://i.imgur.com/WXM9GWI.png">
 
 This IP address, originating from Russia, has been identified as malicious by eight different vendors.
 
@@ -50,7 +50,7 @@ This IP address, originating from Russia, has been identified as malicious by ei
 
 No alerts have been generated for this second IP address, which ranks second in the number of logon attempts. Consequently, we will conduct further investigation using VirusTotal to obtain additional information about it.
 
-<img src="https://i.imgur.com/AY5dp6V.png" alt="None" width="600">
+<img src="https://i.imgur.com/AY5dp6V.png">
 
 This IP address, originating from the United States, has been identified as malicious by six different vendors.
 
@@ -58,7 +58,7 @@ This IP address, originating from the United States, has been identified as mali
 
 Following the detection of multiple login attempts from malicious sources targeting our machine, I will identify the top 10 IP addresses with the highest number of login attempts over the past 30 days. Subsequently, I will execute a KQL query to determine whether any of these IPs successfully accessed the machine.
 
-<img src="https://i.imgur.com/ttspVmQ.png" alt="None" width="600">
+<img src="https://i.imgur.com/ttspVmQ.png">
 
 **KQL Query Used:**
 
@@ -91,7 +91,7 @@ There have been no successful logon attempts from the top 10 remote IP addresses
 
 ---
 
-<img src="https://i.imgur.com/47ooEvB.png" alt="None" width="600">
+<img src="https://i.imgur.com/47ooEvB.png">
 
 **KQL Query Used:**
 
@@ -110,7 +110,7 @@ I have identified all accounts that have successfully logged into the target mac
 
 I will execute the following query to compile a list of IP addresses that accessed the system using the seven specific accounts identified earlier.
 
-<img src="https://i.imgur.com/BdFN7UO.png" alt="None" width="600">
+<img src="https://i.imgur.com/BdFN7UO.png">
 
 **KQL Query Used:**
 
