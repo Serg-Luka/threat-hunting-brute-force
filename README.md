@@ -4,7 +4,7 @@
 2. ⏳ [Timeline Summary and Findings](#timeline-summary-and-findings)
 3. ✅ [Investigation Conclusion](#investigation-conclusion)
 4. 🛡️ [Relevant MITRE ATT@CK TTPs](#relevant-mitre-attck-ttps)
-5. 📈 [Improvement Steps](#improvement-steps)
+5. 📈 [Response and Mitigation Steps](#response-and-mitigation-steps)
 
 # Threat Hunting Scope
 
@@ -140,7 +140,7 @@ Through the machine was expose to the internet and clear brute force attempts ha
 - T1078: Valid Accounts (Verification of legitimate logins)
 - T1040: Network Sniffing (Checking for unauthorised access attempts)
 
-# Improvement Steps
+# Response and Mitigation Steps
 
 1. Enable Multi-Factor Authentication (MFA) for all accounts to prevent unauthorized access.
 2. Implement account lockout policies after a set number of failed login attempts.
